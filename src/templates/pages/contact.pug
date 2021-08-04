@@ -1,0 +1,12 @@
+extends ../template
+
+block variables 
+    - var title = 'Контакты'
+block content 
+    main.main
+        h1 Контакты
+        input.form-control(placeholder="Ваше имя")
+        input.form-control(placeholder="Ваш Email")
+        input.form-control.inputfield(placeholder="Сообщение")                            
+        button.btn Отправить
+                            

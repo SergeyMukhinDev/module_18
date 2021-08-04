@@ -1,0 +1,10 @@
+extends ../template
+
+block variables 
+    - var title = 'Главная'
+    - var par = 'Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.'
+block content 
+    main.main
+        p #{par}
+        button.button Написать мне
+    

@@ -1,0 +1,19 @@
+.main {
+    
+    background: url(https://cdn.pixabay.com/photo/2020/01/25/19/12/background-4793186__340.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 450px;
+}
+p {
+    width: 300px;
+    height: 100px;
+}
